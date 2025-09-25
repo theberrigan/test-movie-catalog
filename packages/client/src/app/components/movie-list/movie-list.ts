@@ -3,10 +3,12 @@ import { MovieListSearch } from '../movie-list-search/movie-list-search';
 import { LoadingState } from '../../types/common';
 import { SearchResultEvent } from '../../types/movies';
 import { MoviePopup } from '../movie-popup/movie-popup';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
     selector: 'movie-list',
     imports: [
+        NgOptimizedImage,
         MovieListSearch,
         MoviePopup,
     ],
@@ -18,11 +20,11 @@ import { MoviePopup } from '../movie-popup/movie-popup';
     }
 })
 export class MovieList {
-    protected activeMovieId : number | null = null;
-
     protected readonly LoadingState = LoadingState;
 
     protected readonly skeletonItems = Array(20).fill(0).map((_, i) => i);
+
+    protected activeMovieId : number | null = null;
 
     protected state : WritableSignal<SearchResultEvent> = signal({
         state: LoadingState.Loading,

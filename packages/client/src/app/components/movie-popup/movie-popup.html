@@ -101,7 +101,7 @@
             </div>
             <div class="movie-popup__movie-poster">
                 <figure class="movie-popup__movie-poster-image">
-                    <img [src]="m!.posterUrl" [alt]="title">
+                    <img [ngSrc]="m!.posterUrl" [alt]="title" width="600" height="900" fetchpriority="high">
                 </figure>
             </div>
             <div class="movie-popup__movie-info">

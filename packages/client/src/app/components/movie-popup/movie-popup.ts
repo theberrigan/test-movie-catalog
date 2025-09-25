@@ -12,11 +12,12 @@ import {
 import { MoviesService } from '../../services/movies';
 import { LoadingState } from '../../types/common';
 import { MovieItem } from '../../types/movies';
-import { CurrencyPipe, DatePipe, DecimalPipe, I18nPluralPipe } from '@angular/common';
+import { CurrencyPipe, DatePipe, DecimalPipe, I18nPluralPipe, NgOptimizedImage } from '@angular/common';
 
 @Component({
     selector: 'movie-popup',
     imports: [
+        NgOptimizedImage,
         DatePipe,
         CurrencyPipe,
         DecimalPipe,

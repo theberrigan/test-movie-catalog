@@ -17,7 +17,6 @@ import { CurrencyPipe, DatePipe, DecimalPipe, I18nPluralPipe, NgOptimizedImage }
 @Component({
     selector: 'movie-popup',
     imports: [
-        NgOptimizedImage,
         DatePipe,
         CurrencyPipe,
         DecimalPipe,

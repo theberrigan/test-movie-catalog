@@ -31,7 +31,7 @@
                         <div class="movie-list__item">
                             <div class="movie-card" role="button" animate.enter="movie-card_animate" (click)="handleMovieCardClick(movie.id)">
                                 <div class="movie-card__display">
-                                    <img class="movie-card__poster" [ngSrc]="movie.posterUrl" [alt]="movie.title" width="600" height="900" fetchpriority="high">
+                                    <img class="movie-card__poster" [src]="movie.posterUrl" [alt]="movie.title">
                                     <div class="movie-card__display-content">
                                         @if (movie.age !== null) {
                                             <div class="movie-card__age">

@@ -8,7 +8,6 @@ import { NgOptimizedImage } from '@angular/common';
 @Component({
     selector: 'movie-list',
     imports: [
-        NgOptimizedImage,
         MovieListSearch,
         MoviePopup,
     ],

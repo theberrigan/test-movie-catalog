@@ -19,4 +19,5 @@
 ## Ссылки
 
 - Ответы на вопросы находятся в **[```/misc/docs/Ответы.md```](misc/docs/Ответы.md)**
-- [Краткое резюме и портфолио](https://github.com/theberrigan/apps)
+- [Краткое резюме и портфолио на GitHub](https://github.com/theberrigan/apps)
+- [Hезюме на hh.ru](https://hh.ru/resume/f081e219ff0f569e260039ed1f626b686c784b)
